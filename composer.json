@@ -1,0 +1,17 @@
+{
+    "name": "e-mvc/e-mvc",
+    "type": "project",
+    "description": "The MVC Framework.",
+    "keywords": ["mvc", "php"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0|^8.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
