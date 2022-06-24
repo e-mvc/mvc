@@ -5,8 +5,15 @@
     "keywords": ["mvc", "php"],
     "license": "MIT",
     "require": {
-        "php": "^7.0|^8.0"
+        "php": "^7.0|^8.0",
+        "madskullcreations/simplicity":"dev-master@dev"
     },
+  "repositories": [
+    {
+       "type": "vcs",
+       "url": "https://github.com/madskullcreations/simplicity" 
+    }
+  ],
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
