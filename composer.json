@@ -5,11 +5,24 @@
     "keywords": ["mvc", "php"],
     "license": "MIT",
     "require": {
+        "php": "^7.0|^8.0",
+        "e-mvc/mvc":"dev-master@dev"
     },
     "autoload": {
         "psr-4": {
             "app\\": "app/"
         }
+    },
+  "repositories": [
+    {
+       "type": "vcs",
+       "url": "https://github.com/e-mvc/mvc" 
+    }
+  ],
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
     },
     "minimum-stability": "dev",
     "prefer-stable": true
