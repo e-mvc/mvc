@@ -1,5 +1,7 @@
 <?php 
 
+namespace app\mainControllers;
+
 class mainController{
 
     public static function view($method, $data=null){

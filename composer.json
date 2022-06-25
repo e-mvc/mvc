@@ -8,6 +8,11 @@
         "php": "^7.0|^8.0",
         "e-mvc/mvc":"dev-master@dev"
     },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
   "repositories": [
     {
        "type": "vcs",
