@@ -1,6 +1,6 @@
 {
     "name": "e-mvc/e-mvc",
-    "type": "project",
+    "type": "library",
     "description": "The MVC Framework.",
     "keywords": ["mvc", "php"],
     "license": "MIT",
